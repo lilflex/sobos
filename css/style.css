@@ -266,14 +266,44 @@ body {
 .site-nav .link:focus,
 .contact:hover,
 .contact:focus {
-  color: #ef5c62;
+  color: var(--accent-color);
 }
 /* main */
-.section{
+.section-hero {
+  max-width: 1440px;
+  height: 460px;
+  background-color: var(--agreement--background-color);
 
-max-width: 1440px;
 /* height: 460px; */
 }
+
+.hero {
+  margin-left: 100px;
+  padding-top: 79px;
+
+  /* width: 700px; */
+
+  color: var(--white-color);
+}
+
+.hero > h1 {
+  width: 710px;
+  height: 110px;
+  margin-bottom: 35px;
+  font-family: 'Dela Gothic One' , sans-serif;
+  font-size: 48px;
+  line-height: calc(55/48);
+}
+
+.hero > p {
+  margin-bottom: 58px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19/16);
+  width: 561px;
+
+}
+
 /* modal */
 
 .button {
